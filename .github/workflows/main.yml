@@ -34,4 +34,4 @@ jobs:
             docker stop docker-v1 || true
             docker rm docker-v1 || true
             docker pull thinhlevan/docker-v1:latest
-            docker run -d --name docker-v1 -p 80:80 thinhlevan/docker-v1:latest
+            docker run -d --name docker-v1 -p 4000:5000 thinhlevan/docker-v1:latest
